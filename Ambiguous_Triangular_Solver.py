@@ -29,13 +29,16 @@ elif s1>=(s2*sin(a1)) and s1<s2:
     print("There are two solutions")
     ad2=degrees(asin(s2*sin(a1)/s1))
     ad4=180-ad2
-    #solve for two solutions with law 
+    #solve for two solutions with law of sines and subtraction
     print("Angle B is",ad2,"or", ad4)
     ad3=180-ad1-ad2
     ad5=180-ad3
+    #solve for two solutions with subtraction
     print("Angle C is",ad3,"or",ad5)
     s3=(s1*sin(radians(ad3)))/sin(a1)
     s4=sqrt(s1**2+s2**2-2*s1*s2*cos(radians(ad5)))
+    #solve for third side with law of cosines and sines
     print("Side C is", s3,"or",s4)
 else:
     print("something is wrong")
+    #just an error message left over from earlier prototyping
