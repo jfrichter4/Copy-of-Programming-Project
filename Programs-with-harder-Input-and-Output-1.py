@@ -1,5 +1,5 @@
 # Name: joe richter
-# Date: Feb. 26, 21 - Unknown
+# Date: Feb. 26, 21 - Mar. 26, 21
 # Programs-with-harder-Input-and-Output-1.py
 # Dirxns: Input 2 pts and a 3rd x-val. Output the 3rd y-val if the pts are on an exponential fnxn. 
 import math
