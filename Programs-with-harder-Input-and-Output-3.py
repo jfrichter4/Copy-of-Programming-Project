@@ -1,5 +1,5 @@
 # Name: joe richter
-# Date: Feb. 26, 21 - Unknown
+# Date: Feb. 26, 21 - Mar. 26, 21
 # Programs-with-harder-Input-and-Output-2.py
 # Dirxns: Input a vertex and second pt. Output the general form (y = Ax**2 + Bx +C) quadratic equation. 
 #Gets the inputs for the desired values: 
