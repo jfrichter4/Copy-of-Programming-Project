@@ -20,9 +20,13 @@ x3 = float(input("Input the x-value of a third point: "))
 if (y1/x1)==(y2/x2): 
     print("Not Exponential")
 else: 
-    k = (1/(x1-x2)*math.log((1.26/1.414)))
-    A = y2*math.e**(-k*x2)
-    print(k)
-    print(A)
-    y3 = (A*math.e**(k*x3))
-    print("x1: ", x1, ", ", "y2: ", y1, ", ", "x2: ", x2, ", " "y2: ", y2, ", ", "x3: ", x3, ", " "y3: ", y3)
+    c = x2-x1
+    d = y2/y1
+    b = d**(1/c)
+    a = y1/(b**x1)
+    y3 = a*(b**x3)
+    print("C: ", c)
+    print("D: ", d)
+    print("B: ", b)
+    print("A: ", a)
+    print("This is the y-value of the third point: ", y3)
