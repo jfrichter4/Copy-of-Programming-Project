@@ -10,11 +10,12 @@ y = float(input("Input the y-value of the second point on the line: "))
 
 d = (x-h)**2
 e = y-k
-a = e/d
-print(d)
-print(e)
-print(a)
-
-f = (-h*2)*a
-g = (h**2)*a+k
-print("y = ((x^2) *", a, ") + (x * ", f, ") + ", g)
+if d != 0: 
+    a = e/d
+    f = (-h*2)*a
+    g = (h**2)*a+k
+    print("y = ((x^2) *", a, ") + (x * ", f, ") + ", g)
+else: 
+    a = 0
+    print("The inputted x-values amount to zero, thus eliminating all values except for the vertex's y-value, making this line horizontal: ")
+    print("y = ", k)
